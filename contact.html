@@ -1,0 +1,112 @@
+<!--Programmer Name: AZLIE BIN JOHARI 
+	Date completed: 14/12/2021
+	Description: This is a personal digital resume wesbite developed using HTML,CSS, Javascript and Jquery library-->
+	
+	<!DOCTYPE html>
+	<html>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	
+		<head>
+			<title> AisyahKamarudin | Contact Me</title>
+			<link rel="stylesheet" href="css/style.css" type="text/css" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		</head>
+		
+		<body>
+		<!--------------- Header ---------------->
+		<div class="header" style="margin-bottom: 15px">
+			<div class="MyName">
+				<h1 style="padding-left:30px;">AisyahKamarudin</h1>
+			</div>
+			<div class="NavList">
+				<ul class="navigation">
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<a href="aboutme.html">
+						<li>About Me</li>
+					</a>
+					<a href="education.html">
+						<li>Education</li>
+					</a>
+					<a href="resume.html">
+						<li>Resume</li>
+					</a>
+					<a href="contact.html">
+						<li>Contact</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		
+	<!------------------Content-------------------------->
+	
+	<div class="contact-container" style="background-color:white">
+		<div class="contactContent">
+		
+			<div class="topic-text">
+				<h3>Get In Touch</h3>
+				<p>If you have any job or a project that requires my skills, you may contact me through this form.<br>I'd be happy to assist you in any way I can.</p>
+			</div>
+		
+			<form name = "contact-form" action="Contact.html" method= "post" >
+				<div class="form-container">
+					<div class="label-input">
+						<h3>Name:</h3>
+					</div>
+					<div class="input-box">
+					 <input type="text" placeholder="Enter your full name">
+					</div>
+					
+					<div class="label-input">
+						<h3>Contact Number:</h3>
+					</div>
+					
+					<div class="input-box">
+					  <input type="text" placeholder="Enter your contact number">
+					</div>		
+					
+					<div class="label-input">
+						<h3>Email:</h3>
+					</div>
+					
+					<div class="input-box">
+					  <input type="text" placeholder="Enter your email">
+					</div>
+					
+					<div class="label-input">
+						<h3>Message:</h3>
+					</div>
+					<textarea class="message-box" rows="5" cols="30" name="message"> </textarea>
+					
+					<div class="checkbox-group">
+						<input class ="Input" type="checkbox" name="typeMessage" value="yes"><p>Website Development</p>
+						<input class ="Input" type="checkbox" name="typeMessage" value="yes"><p>Mobile Applications</p>
+						<input class ="Input" type="checkbox" name="typeMessage" value="yes"><p>Others (Specify in the message box)</p>
+					</div>
+					<div class="radio-button">
+						<h3>Select your preferred contact method:</h3>
+					<input class ="Input" type="radio" name="typeContact" value="email"> <span style="margin-right:20px; font-size: 18px;">Email</span>
+					<input class ="Input" type="radio" name="typeContact" value="phone"> <span style="font-size: 18px;">Phone</span>
+					</div>	
+					
+	
+					<div class="button">
+						<input type="button" value="Submit" class="submit-button">
+					</div>
+				</div>			
+			 </form>
+		</div>	 
+	</div><br><br>
+	
+		
+		<!-- This is the footer -->
+		<div class ="footer">
+			<p style="color:white; padding-top: 75px;">&copy 2023 Aisyah Kamarudin</p>
+		</div>
+		
+		
+		</body>
+	</html>
